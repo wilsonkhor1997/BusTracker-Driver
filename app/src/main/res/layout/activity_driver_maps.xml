@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="10dp"-->
+<!--        android:orientation="vertical">-->
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminateTint="#428bca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.616"
+            tools:layout_editor_absoluteX="66dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/studentNum"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/Dark"-->
+<!--            android:background="@drawable/textbox"-->
+<!--            android:textColorHighlight="@android:color/primary_text_dark"-->
+<!--            android:textSize="20dp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/logout"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/button"-->
+<!--                android:text="logout"-->
+<!--                android:textColor="@color/white"/>-->
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/history"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="history"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="end"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/settings"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Settings"/>&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--        <Switch-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Working"-->
+<!--            android:layout_margin="10sp"-->
+<!--            android:id="@+id/workingSwitch"/>-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/customerInfo"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@android:color/white"-->
+<!--        android:visibility="gone"-->
+<!--        android:elevation="1dp"-->
+<!--        android:translationZ="1dp">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="100sp"-->
+<!--                android:layout_height="100sp"-->
+<!--                android:id="@+id/customerProfileImage"-->
+<!--                android:src="@mipmap/ic_launcher"-->
+<!--                android:padding="20sp"/>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingLeft="40sp">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/customerDestination"-->
+<!--                    android:paddingBottom="10sp"-->
+<!--                    android:text="Destination: &#45;&#45;"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/customerName"-->
+<!--                    android:paddingBottom="10sp"-->
+<!--                    android:paddingTop="20sp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/customerPhone"-->
+<!--                    android:paddingBottom="10sp"-->
+<!--                    android:paddingTop="20sp"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="picked customer"-->
+<!--            android:id="@+id/rideStatus"/>-->
+
+
+<!--    </LinearLayout>-->
+</FrameLayout>
